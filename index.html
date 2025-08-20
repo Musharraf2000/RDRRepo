@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Arthur Morgan — Outlaw, Survivor, Man</title>
+  <meta name="description" content="A clean, fast static website celebrating Arthur Morgan from Red Dead Redemption 2: biography, timeline, companions, quotes, gallery, and FAQs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+  <header class="site">
+    <div class="container" style="display:flex;gap:16px;align-items:center">
+      <div class="brand" aria-label="Site brand">
+        <div class="badge" aria-hidden="true">A</div>
+        <div>Arthur Morgan</div>
+      </div>
+      <nav aria-label="Primary">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#timeline">Timeline</a></li>
+          <li><a href="#people">Companions</a></li>
+          <li><a href="#quotes">Quotes</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+      <label class="theme-toggle" title="Toggle light/dark">
+        <input type="checkbox" id="themeSwitch" aria-label="Toggle theme" />
+      </label>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="container hero-inner">
+        <div>
+          <h1>Arthur Morgan
+            <span style="display:block;font-size:clamp(14px,2.2vw,18px);font-weight:600;color:var(--muted);margin-top:8px">Outlaw, survivor, and a complicated man from <em>Red Dead Redemption 2</em>.</span>
+          </h1>
+          <p>Leader, mentor, and gunslinger of the Van der Linde gang. Arthur’s story is one of loyalty, loss, and the search for a better self in a world that’s disappearing.</p>
+          <div class="cta">
+            <a class="btn primary" href="#about">Learn his story</a>
+            <a class="btn ghost" href="#gallery">See the gallery</a>
+          </div>
+        </div>
+        <div class="frame" aria-label="Hero image">
+          <div class="placeholder"><img src="./images/ar5.jpg"></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Arthur</h2>
+        <p class="lead">Raised on the road and forged by the gang he called family, Arthur balances ruthless practicality with flashes of compassion. He’s a sketcher, a hunter, a horseman—and a man learning what honor means to him.</p>
+        <div class="grid cols-3" style="margin-top:16px">
+          <div class="card">
+            <div class="chip">Role</div>
+            <h3 style="margin:.4rem 0 0">Senior Enforcer, Van der Linde</h3>
+            <p style="color:var(--muted)">Dutch’s right hand and often the voice of reason when plans go sideways.</p>
+          </div>
+          <div class="card">
+            <div class="chip">Traits</div>
+            <ul>
+              <li>Pragmatic & fiercely loyal</li>
+              <li>Skilled tracker & marksman</li>
+              <li>Surprisingly thoughtful and artistic</li>
+            </ul>
+          </div>
+          <div class="card">
+            <div class="chip">Abilities</div>
+            <ul>
+              <li>Dead Eye marksmanship</li>
+              <li>Expert horsemanship</li>
+              <li>Survival & crafting in the wild</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="timeline">
+      <div class="container">
+        <h2>Story Timeline (Spoiler‑light)</h2>
+        <p class="lead">A broad, spoiler‑respecting arc of Arthur’s journey across the American heartland.</p>
+        <div class="grid cols-2" style="margin-top:8px">
+          <div class="card timeline">
+            <div class="event">
+              <h4>Life with the Gang</h4>
+              <p class="muted">Raised within the Van der Linde gang, Arthur becomes a trusted enforcer and mentor to younger members.</p>
+            </div>
+            <div class="event">
+              <h4>After a Botched Job</h4>
+              <p>The gang fights to survive, moving from camp to camp while tensions and doubts grow.</p>
+            </div>
+            <div class="event">
+              <h4>Questioning & Change</h4>
+              <p>Arthur confronts who he is versus who he wants to be, choosing between self‑interest and something better.</p>
+            </div>
+          </div>
+          <div class="card">
+            <h3 style="margin-top:0">Key Themes</h3>
+            <ul>
+              <li>Loyalty vs. morality</li>
+              <li>Found family in a fading frontier</li>
+              <li>Redemption through action</li>
+            </ul>
+            <blockquote>
+              "We can’t change what’s done, we can only move on."
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="people">
+      <div class="container">
+        <h2>Companions & Connections</h2>
+        <p class="lead">The people who shape Arthur—friends, mentors, and those caught in the crossfire.</p>
+        <div class="grid cols-3" style="margin-top:14px">
+          <div class="card">
+            <strong>Dutch van der Linde</strong>
+            <p class="muted">Charismatic leader whose dream of freedom pulls Arthur forward—and sometimes apart.</p>
+          </div>
+          <div class="card">
+            <strong>John Marston</strong>
+            <p class="muted">A brother‑in‑arms. Their bond—and friction—defines much of the gang’s fate.</p>
+          </div>
+          <div class="card">
+            <strong>Sadie Adler</strong>
+            <p class="muted">Fierce ally who forges her own path from grief to fearlessness.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="quotes">
+      <div class="container">
+        <h2>Lines that Linger</h2>
+        <div class="grid cols-2" style="margin-top:12px">
+          <div class="card">
+            <blockquote>
+              "I guess we’re just about done, my friend."
+            </blockquote>
+          </div>
+          <div class="card">
+            <blockquote>
+              "We're thieves in a world that don’t want us no more."
+            </blockquote>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery">
+      <div class="container">
+        <h2>Gallery</h2>
+        <p class="lead">Drop your screenshots or fan art into the placeholders below. Replace each with an image of the same aspect ratio for instant polish.</p>
+        <div class="gallery" aria-label="Image gallery placeholders">
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+          <div class="g">1:1</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="faq">
+      <div class="container">
+        <h2>FAQ</h2>
+        <details>
+          <summary>Is this site spoiler‑free?</summary>
+          <p>Mostly. The timeline is broad and avoids late‑game specifics. Feel free to replace copy with your preferred level of detail.</p>
+        </details>
+        <details>
+          <summary>Can I turn this into multiple pages?</summary>
+          <p>Yes—duplicate this file into folders like <code>about.html</code> and <code>gallery.html</code>, copy the header/footer, and update links.</p>
+        </details>
+        <details>
+          <summary>How do I add real images?</summary>
+          <p>Replace any <em>placeholder</em> box with an <code>&lt;img src="images/your-file.jpg" alt="Description" /&gt;</code>. Keep similar aspect ratios for best results.</p>
+        </details>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container foot-grid">
+      <div>
+        <strong>Arthur Morgan Fan Site</strong>
+        <div style="font-size:.9rem">Built as a simple static site for fans and students.</div>
+      </div>
+      <div style="display:flex;gap:8px;flex-wrap:wrap">
+        <a href="#top">Back to top</a>
+        <span aria-hidden="true">·</span>
+        <a href="#about">About</a>
+        <span aria-hidden="true">·</span>
+        <a href="#gallery">Gallery</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    // Theme toggle persistence
+    const sw = document.getElementById('themeSwitch');
+    const key = 'arthur-theme';
+    const saved = localStorage.getItem(key);
+    if(saved === 'light'){ document.body.classList.add('light'); sw.checked = true; }
+    sw.addEventListener('change', ()=>{
+      document.body.classList.toggle('light', sw.checked);
+      localStorage.setItem(key, sw.checked ? 'light' : 'dark');
+    });
+
+    // Smooth scroll focus management for accessibility
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        const id = a.getAttribute('href');
+        if(id.length > 1){
+          const el = document.querySelector(id);
+          if(el){ e.preventDefault(); el.scrollIntoView({behavior:'smooth'}); el.setAttribute('tabindex','-1'); el.focus({preventScroll:true}); }
+        }
+      })
+    })
+  </script>
+</body>
+</html>
